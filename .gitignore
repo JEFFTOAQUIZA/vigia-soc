@@ -1,0 +1,19 @@
+# Dependencias y compilados
+node_modules
+dist
+
+# Secretos: nunca publicar (usar .env.example como plantilla)
+.env
+.env.*
+!.env.example
+
+# Datos del cliente y salidas generadas
+*.xlsx
+*.pdf
+*.csv
+
+# Varios
+*.log
+.DS_Store
+Thumbs.db
+.vscode
